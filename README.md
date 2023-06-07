@@ -4,8 +4,6 @@
     These methods are one in its normal way of representing the 
     fibonacci sequence and another does the same except that it 
     is a recursive method.
-##### Lesson link: 
-https://www.theodinproject.com/lessons/ruby-recursion
 
 ### Merge Sort operation
 ##### 1- Split: 
@@ -17,3 +15,6 @@ https://www.theodinproject.com/lessons/ruby-recursion
      The ordered halves are combined into a new ordered list. In this step,
      compare the elements of the two halves and place them in order in the new list.
      The merge process continues until all halves are combined into a single ordered list.
+    
+##### Lesson link: 
+    https://www.theodinproject.com/lessons/ruby-recursion
