@@ -19,6 +19,8 @@ def merge_sort(array)
   merge(first_half, second_half)
 end
 
+
+
 def merge(left, right)
   result = []
 
@@ -35,9 +37,9 @@ def merge(left, right)
   result.concat(left).concat(right)
 end
 
+
 numbers = [17, 14, 15, 12, 9, 3, 2, 1, 8]
 letters = ['a', 'j', 'c', 'b', 'e', 'd', 'f']
 
 puts merge_sort(numbers).join(', ')
 puts merge_sort(letters).join(', ')
-
