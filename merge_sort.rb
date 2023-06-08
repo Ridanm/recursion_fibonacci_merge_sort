@@ -8,6 +8,7 @@
 
 
 def merge_sort(array) 
+  array.reject! { |element| element == true || element == false || element.nil? }
   return array if array.size <= 1 
 
   # Divide an array call again
@@ -38,8 +39,8 @@ def merge(left, right)
 end
 
 
-numbers = [17, 14, 15, 12, 9, 3, 2, 1, 8]
-letters = ['a', 'j', 'c', 'b', 'e', 'd', 'f']
+numbers = [17, 14, 15, 12, 9, 3, 2, 1, 8, nil, false, true]
+letters = ['a', 'j', 'c', nil, 'nil', 'b', 'e', 'd', 'f']
 
 puts merge_sort(numbers).join(', ')
 puts merge_sort(letters).join(', ')
